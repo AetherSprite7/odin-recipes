@@ -1,0 +1,45 @@
+/* Stylesheet for index */
+
+body { text-align: center; font-size: 69px; width: 100%;
+    height: 100%; background-image: url(./pictures/main.jpg); background-size: cover;}
+
+  .statement { background-color: white;
+    padding: 32px solid white;
+    border: 64px solid goldenrod;
+    margin: 128px;}
+.textbox { color: black; }
+.twotitle { color: orange }
+
+.inverted,
+.fancy {
+  font-family: 'Times New Roman'; 
+  font-size: 64px;
+}
+
+.inverted {
+  background-color: black;
+  color: orange;
+}
+
+.fancy {
+  background-color: yellow;
+}
+.centerthis { color: black; 
+background-color: transparent;
+padding: 64px;
+border: 32px solid goldenrod;
+margin-left: 512px;
+margin-right: 512px;
+margin-bottom: 64px;
+display: flex 1;
+}
+
+.box-one { background-color: white;
+padding: 64px;
+border: 64px solid rgb(187, 161, 96);
+margin: 64px;
+ }
+ .rain { color: blue;
+}
+.container { border: 16px; color: blue; display: flex; }
+.search { flex: 1 }
